@@ -18,8 +18,8 @@ btn.addEventListener("click", () => {
   let hourValue = threeRule(monthHours, monthBill);
 
   if (hourValue > 10) {
-    result.innerHTML = `caraca R$${hourValue} por hora, tá ganhando milhão hein meno`;
+    result.innerHTML = `caraca R$${hourValue} por hora, tá ganhando milhão`;
   } else {
-    result.innerHTML = `alá o cara ganha só R$${hourValue} por hora, mó ferrado`;
+    result.innerHTML = `dureza vamos trabalhar nisso aí, R$${hourValue} por hora, tá pouco`;
   }
 });
